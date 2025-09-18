@@ -1,0 +1,10 @@
+.divs {
+    background-color:rgb(143, 143, 143);
+}
+
+.divs:hover {
+    background-color:rgb(0, 0, 0);
+    
+}
+
+
