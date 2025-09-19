@@ -12,10 +12,22 @@ function grid(num){
         container.appendChild(div);
         div.style.width = "50px";
         div.style.height = "50px";
-}
-}
+
+        }
 
 
-
+        const divAll = document.querySelectorAll("div")
+        divAll.forEach(div => {
+        div.addEventListener('mouseenter', () => {
+        div.style.backgroundColor = "black";
+        })
+        
+    })
+    }
+        
+    
 
 grid(16);
+
+
+
